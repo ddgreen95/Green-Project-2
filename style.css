@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+}
+.column{
+  float: left;  
+  width: 50%;
+  padding:10px;
+}
+.row:after{
+content: "";
+display: table;
+clear: both;
+}
+h1{
+    display:flex;
+    justify-content:center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    background-color:rgb(233, 27, 27)
+}
+.btn.active {
+    background-color:rgb(112, 10, 10);
+}
